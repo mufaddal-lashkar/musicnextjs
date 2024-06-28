@@ -1,9 +1,10 @@
+import HeroSection from "@/components/HeroSection";
 
 
 export default function Home() {
-  return (
-    <div className="bg-black text-white h-[100vh] w-full">
-      <h1 className="text-2xl text-center">Mufaddal is Boss</h1>
-    </div>
-  );
+    return (
+        <main className="min-h-screen bg-black/[0.96] text-white antialiased bg-grid-white/[0.02]">
+            <HeroSection />
+        </main>
+    );
 }
