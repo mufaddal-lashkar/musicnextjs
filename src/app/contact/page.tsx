@@ -3,7 +3,7 @@ import React, { FormEvent, useState } from 'react';
 import { BackgroundBeams } from "@/components/ui/background-beams";
 import { Spotlight } from "@/components/ui/Spotlight";
 
-function page() {
+function Page() {
     
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
@@ -56,4 +56,4 @@ function page() {
     )
 }
 
-export default page
+export default Page
