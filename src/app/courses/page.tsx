@@ -47,7 +47,7 @@ function page() {
                                     className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                                     alt={course.title}
                                 />
-                                </CardItem>
+                                </CardItem> 
                                 <div className="flex justify-between items-center mt-20">
                                 <CardItem
                                     translateZ={20}
